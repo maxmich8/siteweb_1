@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Journee #10 | Max et James</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-item"><a href="https://www.google.com/maps" style="text-decoration: none; color: white;">Location</a></div>
+        <div class="navbar-item" style="flex: 1;"><a href="https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/" style="text-decoration: none; color: white;">Tourrist Locations</a></div>
+        <div class="navbar-item"><a href="socials.html" style="text-decoration: none; color: white;">Socials</a></div>
+    </nav>
+    
+<!--Video Background-->
+
+<div class="video-background">
+    <video autoplay muted loop id="bg-video">
+      <source src="/Projet siteweb/Projet siteweb/imgs/weather-Gif.mp4" type="video/mp4">
+      <!-- Fallback for unsupported browsers -->
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="/Projet siteweb/imgs/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <footer style="position: fixed; margin-top: 49%; width: 100%">
+        <p>&copy; 2024 WeatherApp. Tous droits réservés. </p>
+        <p><a href="https://www.linkedin.com/in/maximegionet/">Mon Profile linkedin</a> | <a href="https://ccnb.ca/">Le siteweb ccnb</a></p>
+    </footer>
+</body>
+
+</html>
